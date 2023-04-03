@@ -1,2 +1,2 @@
 target:
-	python plot_output_file.py
+	python ./plot_output_file.py

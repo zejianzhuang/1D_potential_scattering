@@ -22,8 +22,7 @@ my_setting = {
         "xtick.top": True,
         "ytick.right": True,
         "xtick.minor.visible": True,
-        "ytick.minor.visible": True,
-        "savefig.transparent": True,
+        "ytick.minor.visible": True
     }
 plt.rcParams.update(my_setting)
 
