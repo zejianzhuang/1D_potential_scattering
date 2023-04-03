@@ -36,7 +36,7 @@ ax0.plot(df0.iloc[:, 0], df0.iloc[:, 1], label=r"$T^{-1}$")
 ax0.set_xlabel(r"$E$ [eV]")
 ax0.set_ylabel(r"Denominator of $T$")
 ax0.legend()
-fig0.savefig("./figure/deno_T.png")
+fig0.savefig("../figure/deno_T.png")
 #fig0.savefig("./figure/deno_T.pdf")
 
 df1 = pd.read_csv("./output/pole_structure.csv")
